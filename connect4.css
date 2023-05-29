@@ -1,0 +1,48 @@
+
+#game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(156, 153, 153);
+}
+
+#board td {
+  width: 60px;
+  height: 60px;
+  border: solid 1px #666;
+  background-color: rgb(226, 220, 220)
+}
+
+
+.piece {
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.piece.p1 {
+  background-color: red;
+}
+
+.piece.p2 {
+  background-color: blue;
+}
+
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: purple;
+}
+
+
+h1 {
+  font-size: 3rem;
+  color: purple;
+  font-family: Montserrat;
+  text-align: center;
+}
+
